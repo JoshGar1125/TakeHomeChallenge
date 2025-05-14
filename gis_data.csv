@@ -1,0 +1,31 @@
+id,latitude,longitude,type,install_date,condition,last_inspection,notes
+1,29.7632,-95.3631,valve,2018-05-12,4,2023-02-15,Residential area
+2,29.7585,-95.3674,hydrant,2015-11-23,3,2023-01-10,Near intersection
+3,29.7602,-95.3651,manhole,2017-08-05,2,2022-07-22,Requires maintenance
+4,29.7618,-95.3662,valve,2019-02-28,5,2023-03-05,Recently serviced
+5,29.7590,-95.3645,pump,2016-04-17,3,2022-09-30,Industrial zone
+6,29.7605,-95.3690,hydrant,2018-07-10,4,2023-04-12,Commercial district
+7,29.7641,-95.3670,valve,2020-01-15,5,2023-05-08,New installation
+8,29.7624,-95.3633,manhole,2017-11-30,2,2022-06-18,Scheduled for repair
+9,29.7595,-95.3655,hydrant,2019-09-22,3,2022-12-05,Standard model
+10,29.7610,-95.3680,pump,2015-03-08,1,2022-08-14,Critical maintenance required
+11,29.7650,-95.3645,valve,2017-06-20,3,2022-11-30,Regular maintenance
+12,29.7615,-95.3695,hydrant,2016-08-11,2,2022-05-15,Paint chipping
+13,29.7635,-95.3650,manhole,2019-11-05,4,2023-01-25,Good condition
+14,29.7625,-95.3630,valve,2018-10-18,5,2023-04-30,Recently replaced
+15,29.7600,-95.3665,pump,2015-07-14,2,2022-10-05,Needs repair
+16,29.7588,-95.3640,hydrant,2020-04-30,4,2023-03-18,New model
+17,29.7620,-95.3675,valve,2016-12-03,3,2022-09-12,Standard operation
+18,29.7645,-95.3660,manhole,2017-09-28,1,2022-04-22,Critical repair needed
+19,29.7608,-95.3650,hydrant,2019-05-15,3,2023-02-28,Regular inspection
+20,29.7630,-95.3685,pump,2018-02-10,4,2022-12-15,Industrial application
+21,29.7612,-95.3635,valve,2020-07-22,5,2023-05-10,New installation
+22,29.7598,-95.3670,hydrant,2016-10-05,2,2022-08-20,Low water pressure
+23,29.7638,-95.3655,manhole,2017-03-12,3,2022-11-05,Standard condition
+24,29.7622,-95.3688,valve,2019-08-30,4,2023-01-18,Functioning properly
+25,29.7592,-95.3650,pump,2015-05-25,1,2022-06-30,Replacement scheduled
+26,29.7628,-95.3642,hydrant,2018-11-15,3,2022-10-22,Regular maintenance
+27,29.7615,-95.3675,valve,2020-03-08,5,2023-04-05,Excellent condition
+28,29.7640,-95.3665,manhole,2016-06-20,2,2022-07-15,Cover damaged
+29,29.7605,-95.3648,hydrant,2019-01-12,4,2023-03-28,Well-maintained
+30,29.7618,-95.3692,pump,2017-12-05,3,2022-09-18,Industrial setting 
