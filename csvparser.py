@@ -58,10 +58,14 @@ with open('gis_data.csv', 'r') as csv_file:
     maint = maintenance(rows)
     inspect = inspection(rows)
     minValLat, maxValLat, minValLong, maxValLong  = minmaxBounds(rows)
-    
-    print("Total number of points:", count)
-    print("Count of points by type:", types)
-    print("Points requiring maintenance:", maint)
-    print("Points not inspected in the last year include:", inspect)
-    print("The Min Lat value is:", minValLat, "| Max Lat:","%.4f" % maxValLat, "| Min Long:", minValLong, "| Max Long:", "%.4f" % maxValLong)    
-    
+
+
+    file = open('ExpectedOutput.txt', 'w')
+
+    file.write(f"Total number of points: {count} \n")
+    file.write(f"Count of points by type: {types} \n")
+    file.write(f"Points requiring maintenance: {maint} \n")
+    file.write(f"Points not inspected in the last year include: {inspect} \n")
+    file.write(f"The Min Lat value is: {minValLat}, | Max Lat: {"%.4f" % maxValLat} | Min Long: {minValLong} | Max Long: {"%.4f" % maxValLong}")
+
+    file.close()
