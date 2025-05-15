@@ -45,6 +45,12 @@ def minmaxBounds(row):
     maxLong = max(Longitude)
     return minLat, maxLat, minLong, maxLong
 
+def installDate(row):
+    totalDate = []
+    for row in rows:
+        totalDate.append(row[4])
+    return min(totalDate), max(totalDate)
+
 #read the CSV file
 with open('gis_data.csv', 'r') as csv_file:
     csv_reader = csv.reader(csv_file)
@@ -58,7 +64,7 @@ with open('gis_data.csv', 'r') as csv_file:
     maint = maintenance(rows)
     inspect = inspection(rows)
     minValLat, maxValLat, minValLong, maxValLong  = minmaxBounds(rows)
-
+    fInstall, lInstall = installDate(rows)
 
     file = open('ExpectedOutput.txt', 'w')
 
@@ -66,6 +72,7 @@ with open('gis_data.csv', 'r') as csv_file:
     file.write(f"Count of points by type: {types} \n")
     file.write(f"Points requiring maintenance: {maint} \n")
     file.write(f"Points not inspected in the last year include: {inspect} \n")
-    file.write(f"The Min Lat value is: {minValLat}, | Max Lat: {"%.4f" % maxValLat} | Min Long: {minValLong} | Max Long: {"%.4f" % maxValLong}")
+    file.write(f"The Min Lat value is: {minValLat}, | Max Lat: {"%.4f" % maxValLat} | Min Long: {minValLong} | Max Long: {"%.4f" % maxValLong} \n")
+    file.write(f"First install date: {fInstall} | Last install date: {lInstall}")
 
     file.close()

@@ -2,4 +2,5 @@ Total number of points: 30
 Count of points by type: hydrant: 9, manhole: 6, pump: 6, valve: 9 
 Points requiring maintenance: 3, 8, 10, 12, 15, 18, 22, 25, 28 
 Points not inspected in the last year include: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 
-The Min Lat value is: 29.7585, | Max Lat: 29.7650 | Min Long: -95.3695 | Max Long: -95.3630
+The Min Lat value is: 29.7585, | Max Lat: 29.7650 | Min Long: -95.3695 | Max Long: -95.3630 
+First install date: 2015-03-08 | Last install date: 2020-07-22
