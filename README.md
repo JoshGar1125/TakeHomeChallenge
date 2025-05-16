@@ -1,5 +1,7 @@
-GIS CSV Data Parser 
+GIS CSV Data Parser
+
 This project reads a GIS dataset in the form of a CSV file, processes the data per challenge requirements, and based off of user preference, gives off partial or full reports.
+
 The types of reports you can have are:
   1. Total number of points in the dataset
   2. Count of points by type
@@ -8,7 +10,9 @@ The types of reports you can have are:
   5. Geographical bounds of the dataset (min/max Latitude and Longitude)
   6. First and last install dates
   7. Full report
+
 No external libraries are needed.
+
 How to run:
   Download and unzip code
   CD to path
